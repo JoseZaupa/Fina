@@ -22,6 +22,6 @@ namespace Fina.Core.Requests.Transactions
 		[Required(ErrorMessage = "Categoria inválida")]
 		public long CategoryId { get; set; }
 
-        public DateTime? PaidOrReceived { get; set; }
+        public DateTime? PaidOrReceivedAt { get; set; }
     }
 }
